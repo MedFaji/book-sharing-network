@@ -1,0 +1,13 @@
+package tech.medevs.book_sharing;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookSharingNetworkApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookSharingNetworkApplication.class, args);
+	}
+
+}
